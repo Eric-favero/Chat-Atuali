@@ -42,8 +42,7 @@ const SidebarHeader = ({ setUserChat }) => {
           } else if (chatExists(emailInput)) {
             return alert("Chat already exists");}
             else if (emailExists === false)
-              return alert('Nao existe')
-            
+              return alert('E-mail doesn´t exist in our database')
             
 
             db.collection("chats").add({
