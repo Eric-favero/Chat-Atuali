@@ -1,5 +1,5 @@
 import React from 'react';
-import Login from './componentes/SignIn'
+import Login from '../(tabs)/componentes/SignIn'
 
 
 export default function App() {
