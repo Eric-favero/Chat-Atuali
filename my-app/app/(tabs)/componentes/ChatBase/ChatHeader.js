@@ -2,7 +2,14 @@ import React from "react";
 import * as C from "./ChatBaseCSS";
 import { MdPerson, MdMoreVert, MdSearch } from "react-icons/md";
 
+
+
+
 const ChatHeader = ({ photoURL, name }) => {
+  function ConfigChatHeader(){
+    alert('funcionando')
+  }
+
   return (
     <C.ContainerChatHeader>
       <C.UserInfoChatHeader>
@@ -12,8 +19,7 @@ const ChatHeader = ({ photoURL, name }) => {
         </C.NameContentChatHeader>
       </C.UserInfoChatHeader>
       <C.OptionsChatHeader>
-        <MdSearch />
-        <MdMoreVert />
+        <MdMoreVert onClick={ConfigChatHeader} />
       </C.OptionsChatHeader>
     </C.ContainerChatHeader>
   );

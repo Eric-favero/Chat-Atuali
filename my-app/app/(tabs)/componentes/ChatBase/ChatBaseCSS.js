@@ -65,7 +65,7 @@ export const Sidebar = styled.div`
 
 export const SidebarHeader = styled.div`
   height: 59px;
-  background-color: #f0f2f5;
+  background-color: #f4f3f3b6;
   padding: 10px 16px;
   display: flex;
   align-items: center;
@@ -163,29 +163,29 @@ export const AvatarChatsItem= styled.img`
 export const ContainerMessage = styled.div``;
 
 export const Line = styled.div`
-  margin: 10px;
+  margin: 15px;
   display: flex;
 
   &.me {
     > div {
-      background-color: #dcf8c6;
+      background-color: #4ad7c9;
     }
     justify-content: right;
   }
 `;
 
 export const ContentMessage = styled.div`
-  background-color: #fff;
-  border-radius: 10px;
+  background-color: #4ad7c9;
+  border-radius: 8px;
   box-shadow: 0 1px 1px #ccc;
   display: flex;
   flex-direction: column;
-  padding: 3px;
+  padding: 8px;
   max-width: 80%;
 `;
 
 export const Message = styled.span`
-  font-size: 14px;
+  font-size: 16px;
   margin: 5px 40px 5px 5px;
 `;
 
@@ -201,7 +201,7 @@ export const MessageDate = styled.span`
 
 export const ContainerChatHeader = styled.div`
   height: 59px;
-  background-color: #f0f2f5;
+  background-color: #f4f3f3b6;
   padding: 10px 16px;
   display: flex;
   align-items: center;
@@ -235,8 +235,8 @@ export const NameChatHeader = styled.span`
 `;
 
 export const AvatarChatHeader = styled.img`
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   margin-right: 10px;
   min-width: fit-content;
@@ -259,9 +259,9 @@ export const OptionsChatHeader = styled.div`
 export const ContainerChatFooter = styled.div`
   height: 62px;
   bottom: 0;
-  width: 100%;
+  width: 97%;
   padding: 10px 20px;
-  background-color: #f0f2f5;
+  background-color: #f4f3f3b6;
   display: flex;
   box-shadow: 2px 1px 3px 1px #0003;
 
@@ -280,7 +280,7 @@ export const FormChatFooter = styled.form`
 `;
 
 export const InputChatFooter = styled.input`
-  padding: 10px;
+  padding: 13px;
   outline: none;
   border: none;
   border-radius: 5px;
@@ -292,7 +292,7 @@ export const InputChatFooter = styled.input`
 
 export const ContainerChatBody = styled.div`
   flex: 1;
-  background-color: #efeae2;
+  background-color: #ecebebb6;
   overflow-y: auto;
 
   &::-webkit-scrollbar {
@@ -318,7 +318,7 @@ export const ContainerChat = styled.div`
 
 export const ContainerDefault = styled.div`
   width: 100%;
-  background-color: #f8f8f8;
+  background-color: #ecebebb6;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -326,10 +326,11 @@ export const ContainerDefault = styled.div`
   gap: 20px;
   padding: 20px;
 
+
   svg {
     width: 100px;
     height: 100px;
-    color: green;
+    background-color: none;
   }
 `;
 

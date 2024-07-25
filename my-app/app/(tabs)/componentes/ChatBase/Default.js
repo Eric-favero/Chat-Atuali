@@ -1,18 +1,18 @@
 import React from "react";
 import * as C from "./ChatBaseCSS";
-import { MdMessage } from "react-icons/md";
+import { BsChatSquareDots } from "react-icons/bs";
 
 const Default = () => {
   return (
     <C.ContainerDefault>
-      <MdMessage />
-      <C.Title>Chat App</C.Title>
+      <BsChatSquareDots />
+      <C.Title>Chat Valencia</C.Title>
       <C.Info>
-        Agora você pode enviar e receber mensagens sem precisar manter seu
-        celular conectado à internet.
+        <p>Welcome to a new way to Chat! 👋</p>
+        <p>From Valencia/Spain to the World! 🤩 </p>
       </C.Info>
     </C.ContainerDefault>
   );
 };
 
-export default Default;
+export default Default; 

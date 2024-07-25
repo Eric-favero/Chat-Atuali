@@ -29,7 +29,10 @@ const Login = () => {
     signInWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         const user = userCredential.user;
-        router.replace('/componentes/ChatBase/ChatBase')
+        router.replace('/componentes/ChatBase/ChatBase')})
+      .catch((error) => {
+        const errorMessage = error.message;
+        alert("E-mail or Password Incorrect! Try again!");
 
       })
       

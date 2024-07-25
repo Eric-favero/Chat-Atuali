@@ -146,8 +146,7 @@ function FormSignUp() {
         else{
             db.collection("informations").add({
                 name: userName,
-                email: userMail,
-                
+                email: userMail    
               });
             createUserWithEmailAndPassword(auth,userMail,userPass)
             .then((UserCredencial) => {
